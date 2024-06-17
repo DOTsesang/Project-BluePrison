@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    float v, h;
     public float turnSpeed = 80.0f;
     public float moveSpeed = 1f;
     public float sensitivity = 100f;
@@ -48,6 +47,7 @@ public class Player : MonoBehaviour
         CheckMovement();     
         dir.x = -Input.GetAxis("Vertical");
         dir.z = Input.GetAxis("Horizontal");
+        
     }
     void FixedUpdate() {
         Fall();    
@@ -83,7 +83,6 @@ public class Player : MonoBehaviour
         }
         else{
             anim.SetBool("isWalk", true);
-
         }
     }
     void Move(){
@@ -91,10 +90,8 @@ public class Player : MonoBehaviour
         // v = Input.GetAxis("Horizontal");
         // h = -Input.GetAxis("Vertical");
 
-        if (v > 0.0f)
+        if (dir.z != 0.0f)
             anim.SetFloat("moveDir", 1.0f);
-        else if (v < 0.0f)
-            anim.SetFloat("moveDir", -1.0f);     
         else
             anim.SetFloat("moveDir", 0.0f);
 
@@ -105,16 +102,16 @@ public class Player : MonoBehaviour
     }
     void Run(){
         if(Input.GetButtonDown("Sprint") && !isCrouch){
-            moveSpeed += 1.0f;
+            moveSpeed += 1.5f;
             anim.SetBool("isRun", true);
         }
         else if (Input.GetButtonUp("Sprint") && !isCrouch){
-            moveSpeed -= 1.0f;
+            moveSpeed -= 1.5f;
             anim.SetBool("isRun", false);
         }
         // 버그방지
-        if (moveSpeed < 1.0f){
-            moveSpeed = 1.0f;
+        if (moveSpeed = 4.5f){
+            moveSpeed = 3.0f;
         }
     }
 
