@@ -16,7 +16,6 @@ Material:
   - _MASKMAP
   - _MATERIAL_AFFECTS_ALBEDO
   - _MATERIAL_AFFECTS_MASKMAP
-  - _MATERIAL_AFFECTS_NORMAL
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
@@ -175,7 +174,7 @@ Material:
     - _AffectAlbedo: 1
     - _AffectEmission: 0
     - _AffectMetal: 1
-    - _AffectNormal: 1
+    - _AffectNormal: 0
     - _AffectSmoothness: 1
     - _AlbedoAffectEmissive: 0
     - _AlphaCutoff: 0.33
@@ -194,9 +193,9 @@ Material:
     - _CullMode: 0
     - _CullModeForward: 0
     - _Cutoff: 0.33
-    - _DecalBlend: 1
+    - _DecalBlend: 0.606
     - _DecalColorMask0: 15
-    - _DecalColorMask1: 15
+    - _DecalColorMask1: 0
     - _DecalColorMask2: 11
     - _DecalColorMask3: 8
     - _DecalMaskMapBlueScale: 1
@@ -271,7 +270,7 @@ Material:
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
     - _Smoothness: 0.5
-    - _SmoothnessRemapMax: 1
+    - _SmoothnessRemapMax: 0.4126582
     - _SmoothnessRemapMin: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularAAScreenSpaceVariance: 0.1
@@ -314,7 +313,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.38679248, g: 0.34312943, b: 0.29374334, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
