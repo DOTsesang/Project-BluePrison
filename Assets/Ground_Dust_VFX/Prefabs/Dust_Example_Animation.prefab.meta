@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 97c767a8395c66f4faeec3ce7aa6f9c3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293504
+  packageName: Ground Dust VFX
+  packageVersion: 1.0
+  assetPath: Assets/Ground_Dust_VFX/Prefabs/Dust_Example_Animation.prefab
+  uploadId: 685395

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 57dc44e99535f3743b6f251a91330863
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293504
+  packageName: Ground Dust VFX
+  packageVersion: 1.0
+  assetPath: Assets/Ground_Dust_VFX/HDRP_and_URP_Pipelines/Ground_Dust_VFX_HDRP.unitypackage
+  uploadId: 685395

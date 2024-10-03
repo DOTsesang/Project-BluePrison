@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9928c4393cdf5e148b99bc9d632a56ed
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293504
+  packageName: Ground Dust VFX
+  packageVersion: 1.0
+  assetPath: Assets/Ground_Dust_VFX/FBX/Materials/Dust_Sand_mtl.mat
+  uploadId: 685395
