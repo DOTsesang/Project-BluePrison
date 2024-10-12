@@ -19,7 +19,7 @@ public class PlayerDead : MonoBehaviour
         if(collision.gameObject.CompareTag("Enemy")){
             gif.PlayAnimation();
             isDead = true;
-            Time.timeScale = 0;
+            // Time.timeScale = 0.1f;
         }
     }
 
